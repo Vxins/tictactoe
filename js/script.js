@@ -41,3 +41,11 @@ $("#button9").click(function() {
     performLogic("#button9","#tile9");
 });
 
+var currentPlayer = "X" ;
+var turnNumber = 0 ;
+var endGame = false ;
+
+function performLogic(button,tile) {
+    $("#button9").hide()
+    $("#tile9").text("X");
+}
